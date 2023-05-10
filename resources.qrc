@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/plugins/qlsu" >
+        <file>icons/icon.png</file>
+        <file>icons/icon_sr.png</file>
+        <file>icons/runButton.png</file>
+        <file>icons/mTaskCancel.svg</file>
+        <file>icons/mActionStart.svg</file>
+        <file>icons/symbologyAdd.svg</file>
+        <file>icons/symbologyRemove.svg</file>
+        <file>icons/plot_spectra.svg</file>
+        <file>icons/mActionToggleEditing.svg</file>
+        <file>icons/mActionFileSave.svg</file>
+        <file>icons/mActionAtlasNext.svg</file>
+        <file>icons/mActionFileOpen.svg</file>
+    </qresource>
+</RCC>
