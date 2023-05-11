@@ -1,4 +1,5 @@
 #QLSU (QGIS Linear Spectral Unmixing) Plugin
+
 QLSU Plugin is an open source QGIS Plugin allowing users to perform;
 - Unconstrained
 - Partially Constrained (Sum-to-one, Non-negativity)
