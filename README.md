@@ -9,7 +9,8 @@ least squares linear spectral unmixing on multispectral imagery. The plugin also
 Spectral Library Viewer and Resampling tool for visualization, storage and resampling of spectral data
 that are obtained from different sources.
 
-Citing This Repository
+# Citing This Repository
+
 If you use this repository, code, or data in your research, please cite our related paper:
 
 ```@article{CELIK2023105782,
