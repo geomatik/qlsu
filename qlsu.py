@@ -274,11 +274,11 @@ class UnmixingTask(QThread):
         for n in self.e_names:
             self.proc.emit("Processing output images.")
             ds_abundance = input_driver.Create(
-                utf8_path = os.path.join(self.out_dir, n) + ".tif", 
-                xsize = self.columncount,
-                ysize = self.rowcount,
-                bands = 1,
-                eType = gdal.GDT_Float32
+                os.path.join(self.out_dir, n) + ".tif", 
+                self.columncount,
+                self.rowcount,
+                1,
+                gdal.GDT_Float32
             )
             ds_abundance.SetGeoTransform(input_geotransform)
             srs_abundance = osr.SpatialReference()
