@@ -11,7 +11,7 @@ that are obtained from different sources.
 
 # Citing This Repository
 
-If you use this repository, code, or data in your research, please cite our related paper:
+If you use this repository, code, or data in your research, please cite following related paper:
 
 ```@article{CELIK2023105782,
 title = {QLSU (QGIS Linear Spectral Unmixing) Plugin: An open source linear spectral unmixing tool for hyperspectral & multispectral remote sensing imagery},
