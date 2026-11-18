@@ -1284,7 +1284,7 @@ class QLSU:
                 elif checkcollbox.clickedButton() == buttonYes:
                     return True
             else:
-                return False
+                return True
 
     def start_unmixing_task(self):
         """ Start linear spectral unmixing """
