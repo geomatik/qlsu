@@ -1269,8 +1269,8 @@ class QLSU:
                 checkcollbox = QMessageBox()
                 checkcollbox.setIcon(QMessageBox.Question)
                 checkcollbox.setWindowTitle('Warning')
-                checkcollbox.setText('Given endmember matrix does not met collinearity \
-                    condition "Variance inflation factor > 10" Proceed? or Exit?')
+                checkcollbox.setText('Given endmember matrix does not met collinearity '
+                    'condition "Variance inflation factor > 10" Proceed? or Exit?')
                 checkcollbox.setStandardButtons(
                     QMessageBox.StandardButton.Yes|QMessageBox.StandardButton.No)
                 buttonYes = checkcollbox.button(
